@@ -13,26 +13,34 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.shopall.R;
+import com.example.shopall.databinding.FragmentCheckoutBinding;
+import com.example.shopall.databinding.FragmentGalleryBinding;
 
 public class CheckoutFragment extends Fragment {
 
-    private CheckoutViewModel mViewModel;
 
-    public static CheckoutFragment newInstance() {
-        return new CheckoutFragment();
-    }
+
+    private FragmentCheckoutBinding binding;
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_checkout, container, false);
+
+
+
+     binding = FragmentCheckoutBinding.inflate(inflater,container,false);
+        View root = binding.getRoot();
+
+
+
+
+
+        return  root;
+
+
+
     }
 
-    @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        mViewModel = new ViewModelProvider(this).get(CheckoutViewModel.class);
-        // TODO: Use the ViewModel
-    }
+
 
 }

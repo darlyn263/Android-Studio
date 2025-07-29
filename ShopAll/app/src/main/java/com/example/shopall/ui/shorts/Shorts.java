@@ -1,11 +1,10 @@
-package com.example.shopall.ui;
+package com.example.shopall.ui.shorts;
 
 import androidx.lifecycle.ViewModelProvider;
 
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -13,8 +12,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.shopall.R;
-import com.example.shopall.databinding.FragmentHomeBinding;
 import com.example.shopall.databinding.FragmentShorts2Binding;
 import com.example.shopall.ui.home.HomeViewModel;
 
@@ -31,7 +28,9 @@ public class Shorts extends Fragment {
         View root = binding.getRoot();
 
         final TextView textView = binding.textShorts;
-        ShortsViewModelhor ViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
+        textView.setText("Hi");
+
         return root;
     }
 

@@ -14,18 +14,21 @@ import com.example.shopall.databinding.FragmentGalleryBinding;
 
 public class GalleryFragment extends Fragment {
 
+
+
+    TextView message;
+
     private FragmentGalleryBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        GalleryViewModel galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
 
         binding = FragmentGalleryBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
+
         final TextView textView = binding.textGallery;
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+       textView.setText("This is gallery fragment  444444");
         return root;
     }
 

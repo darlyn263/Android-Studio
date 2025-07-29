@@ -1,4 +1,4 @@
-package com.example.shopall.ui;
+package com.example.shopall.ui.profile;
 
 import androidx.lifecycle.ViewModel;
 
