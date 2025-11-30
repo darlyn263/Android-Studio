@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Theme.SellRight" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/grocery_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/grocery_green</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Background / surface colors -->
+        <item name="colorSurface">@color/white</item>
+        <item name="colorSurfaceVariant">@color/grocery_green_dark</item>
+        <item name="colorOnSurface">@color/grocery_text</item>
+        <item name="android:windowBackground">@color/white</item>
+
+        <!-- Text colors -->
+        <item name="android:textColor">@color/grocery_text</item>
+        <item name="android:textColorSecondary">@color/grocery_subtext</item>
+    </style>
+
+</resources>

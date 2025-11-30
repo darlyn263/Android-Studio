@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "445859500146",
+    "project_id": "bigfoot-7f359",
+    "storage_bucket": "bigfoot-7f359.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445859500146:android:5f35d479e6aae6cb5b72eb",
+        "android_client_info": {
+          "package_name": "com.example.bigfoot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX95ChYqyM9WIwf-knew54QABL4Hyihwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445859500146:android:d8aeaadfea4e13285b72eb",
+        "android_client_info": {
+          "package_name": "com.example.SellRight"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX95ChYqyM9WIwf-knew54QABL4Hyihwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
